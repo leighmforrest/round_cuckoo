@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #
 # tournament.py -- implementation of a Swiss-system tournament
+# Checked for PEP8 conformity with http://pep8online.com/
 #
 
 import psycopg2
@@ -125,5 +126,3 @@ def swissPairings():
         # Otherwise, print a statement and close.
         print "There are an uneven number of players in the tournament"
         db.close()
-
-
